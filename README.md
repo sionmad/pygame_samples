@@ -1,4 +1,4 @@
-# pygame_samples
+# pygame_samples (sionmad)
 
  ### - demo_01.py: pygameの超簡単なデモ。
  ### - demo_02.py: 7セグのシミュレーション、各セグメントを2ブロックで構成。Seven_segクラス使用。
