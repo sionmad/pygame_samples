@@ -10,4 +10,9 @@
  ### - demo_openmoji.py: オープンソースの絵文字、openmojiのデモ。キー操作のデモ。
  ### - seven_seg_pg.py: Seven_segクラス
  ### - lcd_font_pg.py: LCD_fontクラス
+ 
+
+https://github.com/user-attachments/assets/e8f8d758-f412-490b-9c19-6f0d6c4b1850
+
+
  :trollface:
