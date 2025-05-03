@@ -5,7 +5,7 @@ pygame.init()
 
 clock = pygame.time.Clock()
 screen = pygame.display.set_mode([640, 480])
-pygame.display.set_caption("pygame demo - window title here")
+pygame.display.set_caption("pygame demo 01")
 
 running = True
 x1, y1 = 0, 2
@@ -17,12 +17,12 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
-    screen.fill((238, 238, 170))  # back ground color
+    screen.fill((67,99,89)) #background color
 
-    pygame.draw.circle(screen, (176, 176, 222), (320, 240), 120)
+    pygame.draw.circle(screen, (143,191,122), (320, 240), 120)
+    pygame.draw.circle(screen, (143,191,122),(120,120),20)
     pygame.draw.circle(screen, (222, 176, 222), (120, 120), 20)
-    pygame.draw.circle(screen, (222, 176, 222), (120, 120), 20)
-    pygame.draw.rect(screen, (120, 120, 120), Rect(120, 120, 200, 120))
+    pygame.draw.rect(screen, (129, 148, 142),(120, 120, 200, 120))
 
     color_on = (240, 120, 120)
     color_off = (120, 120, 120)
